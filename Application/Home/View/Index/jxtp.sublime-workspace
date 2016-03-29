@@ -1,0 +1,914 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getsu",
+				"getsubidnums"
+			],
+			[
+				"user",
+				"usernum"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"pare",
+				"parent_id"
+			],
+			[
+				"clear_",
+				"clear_all_files	(flow.php)"
+			],
+			[
+				"php",
+				"php?act=login"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"ima",
+				"images	(style.css)"
+			],
+			[
+				"GROUP",
+				"GROUP_BUY_CODE"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"head",
+				"headimgurl"
+			],
+			[
+				"exte",
+				"extension_id"
+			],
+			[
+				"GR",
+				"GROUP_BUY_CODE	(lib_order.php)"
+			],
+			[
+				"G",
+				"GLOBALS"
+			],
+			[
+				"incl",
+				"includes"
+			],
+			[
+				"require",
+				"require_once	(flow.php)"
+			],
+			[
+				"acc",
+				"accessToken"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"sign",
+				"signPackage"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"start",
+				"start_price"
+			],
+			[
+				"goods_n",
+				"goods_number"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"new",
+				"newflash"
+			],
+			[
+				"im",
+				"img_url"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"space",
+				"spacer"
+			],
+			[
+				"date",
+				"datearray"
+			],
+			[
+				"is",
+				"is_separate"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/sign.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/nyy/templates/users_list.htm",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/flow.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/includes/lib_payment.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/includes/lib_common.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/nyy/users.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/includes/initck.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/signin.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/ck.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mymember.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/user.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/nyy/ck.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/includes/init.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/closesite.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/themes/sharesexcn_pcmb/user_sign.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/flow.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/ayg/includes/lib_main.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/beifen/bdata/hdm186864578_db_20151123152448/ecs_article_1.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/beifen/bdata/hdm186864578_db_20151123152448/ecs_ecsmart_shop_config_1.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/beifen/bdata/hdm186864578_db_20151123152448/ecs_goods_1.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/beifen/bdata/hdm186864578_db_20151123152448/ecs_goods_2.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/beifen/bdata/hdm186864578_db_20151123152448/ecs_shop_config_1.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/beifen/bdata/hdm186864578_db_20151123152448/ecs_touch_shop_config_1.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/v_user_erweima.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/v_user_haibao.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/includes/flow.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/temp/caches/3/index_E8CE13CE.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/temp/caches/b/goods_9C45179B.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/temp/caches/f/index_40F756F0.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/mobile/temp/static_caches/shop_config.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/caches/f/index_40F756F0.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/static_caches/shop_config.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/weixin/login.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/compiled/page_footerindex.lbi.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/tree.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/compiled/order_type.lbi.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/themes/sharesexcn_pcmb/library/order_type.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/compiled/help.lbi.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/themes/sharesexcn_pcmb/library/page_footerindex.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/themes/sharesexcn_pcmb/library/help.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/includes/lib_main.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/themes/sharesexcn_pcmb/library/baozhang.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/static_caches/art_cat_pid_releate.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/temp/caches/3/exchange_list_6FBB4549.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/data/sqldata/20151127nqefhu_1.sql",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/languages/zh_cn/common.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/goods.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/includes/cls_mysql.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/test.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/tree/js/jquery.tree.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/themes/sharesexcn_pcmb/library/user_menu.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/nuoya/sftp-config.json",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/jx/index.html",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/jx/css/style.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/jx/sq-site-branding",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/jx/js",
+		"/usr/local/zend/apache2/htdocs/ecs/mobile/flow.php",
+		"/Users/zhang/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zhang/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/includes/inc_constant.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/includes/inc_constant.php",
+		"/Users/zhang/Library/Application Support/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/flow.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/includes/inc_constant - #U2502#U0395.php",
+		"/Users/zhang/Library/Application Support/Sublime Text 3/Packages/FileDiffs/FileDiffs.sublime-settings",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/weixin/jssdk.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/includes/lib_common.php",
+		"/Users/zhang/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/includes/lib_insert.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/flow.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/group_buy.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/group_buy.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/auction.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/tg.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/includes/lib_goods.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/templates/group_buy_list.htm",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/templates/group_buy_info.htm",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/ayg/includes/lib_common.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/tggoods_list_ajax.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/order.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/goods.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/supplier/includes/lib_goods.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/category_list.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/oldauction.html",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/auction_list.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/js/jquery.more.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/auction.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/goods.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/sg.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/tg.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/goods_list_ajax.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/sg.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/sggoods_list_ajax.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/goods_list.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/includes/lib_main.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/swipebox.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/tg.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/js/jquery.min.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/js/jquery.json.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/goods.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/group.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/tggoodslist.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/js/common.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/includes/inc_menu.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/weixin/jsapi_ticket.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/weixin/access_token.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/untitled.html",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/category_flashimg.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/js/group.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/js/jquery.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/goods2.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/goods_bak.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/footer_nav.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/public.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/user_clips.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/member_info1.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/css/user.css",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/user_nav.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/js/lefttime.js",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/includes/lib_goods.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/index.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/templates/auction_log.htm",
+		"/Users/zhang/Downloads/ecmoban_dsc1.1-20160224/themes/ecmoban_dsc/auction_list.dwt",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/auction.php",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/templates/auction_info.htm",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/ayg/templates/brand_list.htm",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/library/sggoodslist.lbi",
+		"/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs/mobile/themesmobile/088xcom_mobile/brand_list.dwt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>",
+			"<open folders>,/Users/zhang/Zend/workspaces/DefaultWorkspace/htdocs",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getsubnums",
+			"getsub",
+			"getsubvalidnums",
+			"{$n['user_id']}",
+			"is_ny",
+			"支付",
+			"微信",
+			"share",
+			"clear_all",
+			"close",
+			"die",
+			"exit",
+			"is_ny",
+			" and is_ny != 1",
+			"{$n['user_id']}",
+			"爱易购",
+			"24小时在线客服",
+			"如果在您不方便上网的时候",
+			"list",
+			" and is_ny!=1",
+			"and is_ny=0",
+			"and is_ny=1",
+			"{$n['user_id']}",
+			"$id",
+			"id",
+			"$_LANG['shop_closed']",
+			"本店盘点中",
+			" and is_ny=1",
+			"400-635-0791",
+			"400",
+			"本店盘点中",
+			"myinfo",
+			"youtube.com",
+			"col-xs-6",
+			"xs",
+			"mysql",
+			"query",
+			"thide",
+			"images",
+			"js",
+			"register",
+			"user_money",
+			"10000",
+			"http://www.weixinfactory.com/wp-content/themes/square/",
+			"branding",
+			"extension_id",
+			"']},\"",
+			"echo",
+			"echo '<pre>';\n	print_r($cart_goods_new);\n	echo '</pre>';\n\n	exit;",
+			"GROUP_BUY_CODE",
+			"goods_price_formated\nGROUP_BUY_CODE",
+			"$total",
+			"var_",
+			"cart_goods_new",
+			"checkout",
+			"checkgout",
+			"checkout",
+			"formated_subtotal",
+			"checkout",
+			"echo",
+			"var_dump",
+			"deposit",
+			"query",
+			"checkout\nautoExecute",
+			"checkout",
+			"CART_GROUP_BUY_GOODS",
+			"\nCART_GROUP_BUY_GOODS",
+			"consignee",
+			"remove",
+			"consignee",
+			"remove",
+			"CART_AUCTION_GOODS",
+			"cat_id",
+			"add",
+			"list",
+			"GAT_GROUP_BUY",
+			"category_get_goods",
+			"auction_list",
+			"img",
+			"jingBlock",
+			"../img/loader.gif",
+			"../img/icons.svg",
+			"../img/icons.png",
+			"address",
+			"      	$(document).on(\"click\",\".shareBlock\",function(e){\n			      $(this).hide();\n			});\n",
+			" 	$(document).on(\"click\",\".shareBlock\",function(e){\n			      $(this).hide();\n			});\n",
+			"goods",
+			"'cart'",
+			"cart",
+			"add_to_cart2",
+			"    echo $url;",
+			"{insert name",
+			"      echo $url;",
+			"GetSignPackage",
+			"inc_menu",
+			"08_group_by",
+			"img\nimg\nimg\n08_group_by",
+			"img",
+			"<div class=\"headertg\">\n<img class=\"xianIcon\" src=\"images/tuanWuXian.png\">\n已售{$goods.wap_count}\n</div>",
+			" <div class=\"main\" id=\"user_goods_ka_2\" style=\"display:none\">",
+			"month",
+			"filtrate_term",
+			"Wallet",
+			"uer_topnav",
+			"priceshow",
+			"btn",
+			"button",
+			":",
+			"showtime",
+			"leftTime",
+			"\">\n",
+			"endtime",
+			"auction_info",
+			"goods_info",
+			"lefttime",
+			"left",
+			"now_time",
+			"leftTime",
+			"showtime",
+			"auction_log",
+			"auction_list",
+			"wap_auction_ad",
+			"foreach",
+			"add",
+			"goods",
+			"category_get_goods",
+			"goods",
+			"团购活动"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{$n['user_id']} and is_ny=1",
+			"",
+			"{$n['user_id']} and is_ny != 1",
+			"诺亚",
+			"",
+			"and is_ny!=1",
+			"and is_ny=0",
+			"{$n['user_id']} and is_ny=1",
+			"$id and is_ny=1",
+			"",
+			"../images/t-loader.gif",
+			"../images/t-icons.svg",
+			"../images/t-icons.png",
+			"user_id",
+			"parent_id",
+			"mysqli_",
+			"9fe_cDg4TerrzA_KlPQvJY0LurejpHfAhmaa444w6MY",
+			"诺亚",
+			"诺亚提醒",
+			"http://ny.ayggo.com",
+			"诺亚",
+			"http://ny.ayggo.com",
+			",",
+			"http://ny.ayggo.com",
+			"$weixin->sendTempMsg('OPENTM207224352','29Xe6rikbkSMNGICra8VTkf3Ja81Hu5_dXX7pb7gtTA', $dataArr);",
+			"www.ayggo.com",
+			"$weixin->sendTempMsg('OPENTM206905988','jgqwtjP1DxhcaKflYnpZOHaSrE6mfNFJf4oOu5hGoGI', $dataArr);",
+			"www.ayggo.com"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "jxtp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"users_list",
+				"nyy/templates/users_list.htm"
+			],
+			[
+				"sign",
+				"sign.php"
+			],
+			[
+				"myme",
+				"mymember.php"
+			],
+			[
+				"inick",
+				"includes/initck.php"
+			],
+			[
+				"users",
+				"nyy/users.php"
+			],
+			[
+				"user_list",
+				"nyy/templates/users_list.htm"
+			],
+			[
+				"my",
+				"mymember.php"
+			],
+			[
+				"user",
+				"user.php"
+			],
+			[
+				"initck",
+				"includes/initck.php"
+			],
+			[
+				"flow.php",
+				"flow.php"
+			],
+			[
+				"ck.php",
+				"ck.php"
+			],
+			[
+				"init",
+				"includes/init.php"
+			],
+			[
+				"flow",
+				"flow.php"
+			],
+			[
+				"sign.dwt",
+				"themes/sharesexcn_pcmb/user_sign.dwt"
+			],
+			[
+				"users.php",
+				"nyy/users.php"
+			],
+			[
+				"sign.",
+				"sign.php"
+			],
+			[
+				"tree.",
+				"tree.php"
+			],
+			[
+				"sign.dw",
+				"themes/sharesexcn_pcmb/user_sign.dwt"
+			],
+			[
+				"st",
+				"css/style.css"
+			],
+			[
+				"goods.css",
+				"mobile/themesmobile/088xcom_mobile/css/goods.css"
+			],
+			[
+				"tg.dwt",
+				"mobile/themesmobile/088xcom_mobile/tg.dwt"
+			],
+			[
+				"order",
+				"ayg/order.php"
+			],
+			[
+				"flow.dwt",
+				"mobile/themesmobile/088xcom_mobile/flow.dwt"
+			],
+			[
+				"group_by",
+				"ayg/group_buy.php"
+			],
+			[
+				"group_buy_l",
+				"ayg/templates/group_buy_list.htm"
+			],
+			[
+				"goods.php",
+				"mobile/goods.php"
+			],
+			[
+				"goods.dwt",
+				"mobile/themesmobile/088xcom_mobile/goods.dwt"
+			],
+			[
+				"sg.php",
+				"mobile/sg.php"
+			],
+			[
+				"tg.c",
+				"mobile/themesmobile/088xcom_mobile/css/tg.css"
+			],
+			[
+				"tggoods",
+				"mobile/themesmobile/088xcom_mobile/library/tggoods_list_ajax.lbi"
+			],
+			[
+				"au",
+				"mobile/auction.php"
+			],
+			[
+				"tg.php",
+				"mobile/tg.php"
+			],
+			[
+				"group_buy_info",
+				"ayg/templates/group_buy_info.htm"
+			],
+			[
+				"group_buy_list",
+				"ayg/templates/group_buy_list.htm"
+			],
+			[
+				"group_buy",
+				"ayg/group_buy.php"
+			],
+			[
+				"jquery.more",
+				"mobile/themesmobile/088xcom_mobile/js/jquery.more.js"
+			],
+			[
+				"tg.css",
+				"mobile/themesmobile/088xcom_mobile/css/tg.css"
+			],
+			[
+				"goods.cs",
+				"mobile/themesmobile/088xcom_mobile/css/goods.css"
+			],
+			[
+				"category_list",
+				"mobile/themesmobile/088xcom_mobile/css/category_list.css"
+			],
+			[
+				"category_list.cs",
+				"mobile/themesmobile/088xcom_mobile/css/category_list.css"
+			],
+			[
+				"goods_list_aj",
+				"mobile/themesmobile/088xcom_mobile/library/goods_list_ajax.lbi"
+			],
+			[
+				"swipe",
+				"mobile/themesmobile/088xcom_mobile/css/swipebox.css"
+			],
+			[
+				"jquery.js",
+				"mobile/js/jquery.json.js"
+			],
+			[
+				"tg.dw",
+				"mobile/themesmobile/088xcom_mobile/tg.dwt"
+			],
+			[
+				"goods.d",
+				"mobile/themesmobile/088xcom_mobile/goods.dwt"
+			],
+			[
+				"tggoo",
+				"mobile/themesmobile/088xcom_mobile/library/tggoodslist.lbi"
+			],
+			[
+				"sggoods_",
+				"mobile/themesmobile/088xcom_mobile/library/sggoods_list_ajax.lbi"
+			],
+			[
+				"auction_log",
+				"ayg/templates/auction_log.htm"
+			],
+			[
+				"start",
+				"ayg/templates/start.htm"
+			],
+			[
+				"index",
+				"ayg/index.php"
+			],
+			[
+				"index.",
+				"themes/sharesexcn_pcmb/index.dwt"
+			],
+			[
+				"template/in",
+				"ayg/templates/index.htm"
+			],
+			[
+				"index.html",
+				"mobile/templates/index.html"
+			],
+			[
+				"top.ht",
+				"ayg/templates/top.htm"
+			],
+			[
+				"usre_re",
+				"themes/sharesexcn_pcmb/user_register.dwt"
+			],
+			[
+				"register",
+				"register.php"
+			],
+			[
+				"index.d",
+				"themes/sharesexcn_pcmb/index.dwt"
+			],
+			[
+				"index.dwt",
+				"themes/default/index.dwt"
+			],
+			[
+				"zf/apigility/application",
+				"vendor/zfcampus/zf-apigility-admin/test/TestAsset/Application.php"
+			],
+			[
+				"zfrcors",
+				"vendor/zendframework/zftool/src/ZFTool/Controller/InstallController.php"
+			],
+			[
+				"hotel",
+				"www/templates/shopping-detail.html"
+			],
+			[
+				"login",
+				"www/templates/login.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/usr/local/zend/apache2/htdocs/jx/Application/Home/View/Index/jxtp.sublime-workspace"
+			],
+			[
+				"jx",
+				"~/Documents/jx.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"order_fee",
+				"order_fee"
+			],
+			[
+				"insert_get_shop_shipping",
+				"insert_get_shop_shipping"
+			],
+			[
+				"goods_info",
+				"goods_info"
+			],
+			[
+				"group_b",
+				"group_buy_info"
+			],
+			[
+				"group_by_info",
+				"group_buy_info"
+			],
+			[
+				"build_uri",
+				"build_uri"
+			],
+			[
+				"get_goods_",
+				"get_goods_gallery"
+			],
+			[
+				"get_goods_g",
+				"get_goods_gallery"
+			],
+			[
+				"assign_dy",
+				"assign_dynamic"
+			],
+			[
+				"auction_log",
+				"auction_log"
+			],
+			[
+				"auction_info",
+				"auction_info"
+			],
+			[
+				"get_goods_gallery",
+				"get_goods_gallery"
+			],
+			[
+				"log",
+				"Log"
+			],
+			[
+				"getquery",
+				"getQuery"
+			]
+		],
+		"width": 566.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

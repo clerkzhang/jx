@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>驾校管理</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="__PUBLIC__/css/metisMenu.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="__PUBLIC__/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="__PUBLIC__/css/sb-admin-2.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+    <link href="__PUBLIC__/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="__PUBLIC__/css/style.css" rel="stylesheet">
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="__PUBLIC__/js/tinymce/tinymce.min.js"></script>
+	<script>
+	 tinymce.init({
+    	selector: '#content',
+    	language:'zh_CN',
+    	plugins :'image'
+  	});
+	</script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <include file="Public/nav" />
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"><empty name="Think.get.id">增加<else/>编辑</empty>页面</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+
+	<div class="content">
+	<div class="panel panel-primary"> 
+	<div class="panel-heading"> 
+	<h3 class="panel-title"><empty name="Think.get.id">增加<else/>编辑</empty>页面</h3> 
+	</div> 
+	<div class="panel-body"> 
+		<form action="/jx/admin/Page/doAdd" method="post" enctype="multipart/form-data">
+		<div class="iform">
+			 <div class="form-group">
+			    <label for="title">页面标题</label>
+			    <input type="text" class="form-control" id="title" name="title" placeholder="标题" value="{$p.title}" required="required">
+			  </div>
+			   <div class="form-group">
+			    <label for="keywords">关键词</label>
+			    <input type="text" class="form-control" id="keywords" name="keywords" value="{$p.keywords}" placeholder="页面关键词，可不填">
+			  </div> 
+			   <div class="form-group">
+			    <label for="parentid">选择上级页面</label>
+				 <select class="form-control" name="pid">
+				 <option value="0">顶级页面</option>
+				 <volist name="parentpage" id="vo">
+				  <option value="{$vo.id}" <eq name="p.pid" value="$vo.id">selected="selected"</eq>>{$vo.title}</option>
+				  </volist>
+				</select>
+			  </div>
+			   <div class="form-group">
+			   	<label for="content">页面内容</label>
+			    <textarea class="form-control" rows="10" name="content" id="content" required="required">{$p.content}</textarea>
+			  </div>
+			  </div>
+			  <div class="mform">
+			    <div class="checkbox">
+			    <label>
+			      <input type="checkbox" name="is_home" value="1" <eq name="vo.is_home" value="1">checked="checked"</eq>> 是否首页显示
+			    </label>
+			  </div>
+			   <div class="checkbox">
+			    <label>
+			      <input type="checkbox" name="is_hot" value="1" <eq name="vo.is_hot" value="1">checked="checked"</eq>> 是否热点
+			    </label>
+			  </div>
+			     <div class="form-group">
+			    <label for="pics">上传页面图片1</label>
+			    <input type="file" id="pics" name="photo1">
+			    <p class="help-block"><notempty name="p.picss.0"><a href="__PUBLIC__/Uploads/{$p.picss.0}" target="_blank">查看</a></notempty></p>
+			  </div>
+			  <div class="form-group">
+			    <label for="pics">上传页面图片2</label>
+			    <input type="file" id="pics" name="photo2">
+			    <p class="help-block"><notempty name="p.picss.1"><a  target="_blank" href="__PUBLIC__/Uploads/{$p.picss.1}">查看</a></notempty></p>
+			  </div>
+			  <div class="form-group">
+			    <label for="pics">上传页面图片3</label>
+			    <input type="file" id="pics" name="photo3">
+			    <p class="help-block"><notempty name="p.picss.2"><a target="_blank" href="__PUBLIC__/Uploads/{$p.picss.2}">查看</a></notempty></p>
+			  </div> 
+			  <div class="form-group">
+			    <label for="pics">上传页面图片4</label>
+			    <input type="file" id="pics" name="photo4">
+			    <p class="help-block"><notempty name="p.picss.3"><a target="_blank" href="__PUBLIC__/Uploads/{$p.picss.3}">查看</a></notempty></p>
+			  </div>	  
+			  <div class="form-group">
+			    <label for="pics">上传页面图片5</label>
+			    <input type="file" id="pics" name="photo5">
+			    <p class="help-block"><notempty name="p.picss.4"><a target="_blank" href="__PUBLIC__/Uploads/{$p.picss.4}">查看</a></notempty></p>
+			  </div>
+			  </div>
+			  <div class="isubmit">
+			  <input type="hidden" name="id" value="{$id}">
+			  <button type="submit" class="btn btn-primary">&nbsp;&nbsp;&nbsp;提交&nbsp;&nbsp;&nbsp;</button>
+			  <button type="reset" class="btn btn-primary">&nbsp;&nbsp;&nbsp;重置&nbsp;&nbsp;&nbsp;</button>
+			  </div>
+		</form>
+		
+	</div> 
+	</div>
+	</div>
+</div>
+</div>
+<script src="__PUBLIC__/js/jquery-2.2.2.min.js"></script>
+ <!-- Bootstrap Core JavaScript -->
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="__PUBLIC__/js/sb-admin-2.js"></script>
+</body>
+</html>

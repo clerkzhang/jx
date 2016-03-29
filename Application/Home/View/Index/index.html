@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>金领驾校新主页</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="__PUBLIC__/css/ck.css">
+		<link rel="stylesheet" href="__PUBLIC__/css/jquery.bxslider.css">
+		<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
+		<script src="__PUBLIC__/js/jquery-2.2.2.min.js"></script>
+		<script src="__PUBLIC__/js/jquery.bxslider.min.js"></script>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+				jQuery(function(){
+					$('#sq-bx-slider').bxSlider({
+						'pager':true,
+						'auto' : true,
+						'mode' : 'fade',
+						'pause' : 5000,
+						'controls':false
+					});
+					 $('.mycoachsilder').bxSlider({
+					 	'auto' : true,
+					 	'pause' : 5000,
+					 	'mode' : 'fade',
+					 	 'controls':false,
+					  });
+					var carslider =  $('.carclassslider').bxSlider({
+					   slideWidth: 350,
+					    minSlides: 3,
+					    maxSlides: 4,
+					    moveSlides: 1,
+					    slideMargin: 30,
+					    pager:false,
+				
+					  });
+					$( ".carclass-block" ).hover(
+					  function() {
+					    var src = $(this).find('.classimg').attr("src").match(/[^\.]+/) + "_cur.jpg";
+					     $(this).find('.classimg').attr("src", src);
+					  }, function() {
+					     var src = $(this).find('.classimg').attr("src").replace("_cur.jpg", ".jpg");
+            			 $(this).find('.classimg').attr("src", src);
+					  }
+					);
+					$('[data-toggle="tooltip"]').tooltip()
+				});
+		</script>
+		<style type="text/css" media="screen">
+			.tooltip-inner {
+			  max-width: 200px;
+			  padding: 3px 8px;
+			  color: #fff;
+			  text-align: center;
+			  background-color: #008E7E;
+			  border-radius: 4px;
+			}
+			.tooltip.top .tooltip-arrow {
+			  bottom: 0;
+			  left: 50%;
+			  margin-left: -5px;
+			  border-width: 5px 5px 0;
+			  border-top-color: #008E7E;
+			}
+			.tooltip.top-left .tooltip-arrow {
+			  right: 5px;
+			  bottom: 0;
+			  margin-bottom: -5px;
+			  border-width: 5px 5px 0;
+			  border-top-color: #008E7E;
+			}
+			.tooltip.top-right .tooltip-arrow {
+			  bottom: 0;
+			  left: 5px;
+			  margin-bottom: -5px;
+			  border-width: 5px 5px 0;
+			  border-top-color: #008E7E;
+			}
+			.tooltip.right .tooltip-arrow {
+			  top: 50%;
+			  left: 0;
+			  margin-top: -5px;
+			  border-width: 5px 5px 5px 0;
+			  border-right-color: #008E7E;
+			}
+			.tooltip.left .tooltip-arrow {
+			  top: 50%;
+			  right: 0;
+			  margin-top: -5px;
+			  border-width: 5px 0 5px 5px;
+			  border-left-color: #008E7E;
+			}
+			.tooltip.bottom .tooltip-arrow {
+			  top: 0;
+			  left: 50%;
+			  margin-left: -5px;
+			  border-width: 0 5px 5px;
+			  border-bottom-color: #008E7E;
+			}
+			.tooltip.bottom-left .tooltip-arrow {
+			  top: 0;
+			  right: 5px;
+			  margin-top: -5px;
+			  border-width: 0 5px 5px;
+			  border-bottom-color: #008E7E;
+			}
+			.tooltip.bottom-right .tooltip-arrow {
+			  top: 0;
+			  left: 5px;
+			  margin-top: -5px;
+			  border-width: 0 5px 5px;
+			  border-bottom-color: #008E7E;
+			}
+		</style>
+	</head>
+	<body class="ckbody">
+		<div id="ck">
+			<header id="ckheader" class="ck-site-header sq-black">
+				<div class="headbar ck-clearfix">
+					<div class="ck-containter">
+						<div class="">   <span></span></div>
+						<div class="loginteam">
+							<a href="#" class="logintiem">投诉</a>
+							<a href="#" class="logintiem">登陆</a>
+							<a href="#" class="logintiem">注册有礼</a>
+						</div>
+					</div>
+				</div>
+				<div class="ck-containter ck-clearfix">
+					<div id="ck-site-branding"><a href="./">
+					<img src="__PUBLIC__/images/logo.jpg" alt="金领驾校">
+					<img src="__PUBLIC__/images/telphone.jpg" alt="">
+					</a></div>
+					<div class="nav-menu ck-clearfix">
+						<nav id="ck-site-nav" class="ck-main-navigation">
+							<div class="ck-menu">
+								<ul>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">首页</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">公司简介</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">驾校咨询</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">课程费用</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">学车须知</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">网上报名</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">联系我们</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+		<div id="ck-content">
+			<section id="ck-home-slider-section">
+				<div id="sq-bx-slider">
+					<div class="sq-slide sq-slide-count1">
+						<img src="__PUBLIC__/images/slider.jpg">
+					</div>
+					<div class="sq-slide sq-slide-count1">
+						<img src="__PUBLIC__/images/slider.jpg">
+					</div>
+					<div class="sq-slide sq-slide-count1">
+						<img src="__PUBLIC__/images/slider.jpg">
+					</div>
+				</div>
+				<div id="hb">
+					<div class="lhb">
+					<h1>免费获取学车红包</h1>
+					<form action="index_submit" method="get" accept-charset="utf-8">
+						<div class="formline"><input type="text" name="username" id="" placeholder="请输入您的姓名" class="fullb"></div>
+						<div class="formline"><input type="text" name="telphone" id="" placeholder="请输入您的手机号" class="fullb"></div>
+						<div class="formline ck-clearfix"><input type="text" name="code" id="" placeholder="请输入验证码" class="codef">
+						<button class="codei">获取</button></div>
+						<div class="formline"><button class="btn btnblock">点我领取</button></div>
+					</form>
+					</div>
+				</div>
+			</section>
+			<section id="lineblock">
+			<div class="flowshow">
+				<div class="ck-containter poss">
+				<button class="pos1 blki" data-toggle="tooltip" data-placement="left" title="您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">01</p><p>报名学车</p></button>
+				<button class="pos3 blki" data-toggle="tooltip" data-placement="right" title="您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">03</p><p>报名学车</p></button>
+				<button class="pos5 blki" data-toggle="tooltip" data-placement="right" title="您报名学车您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">06</p><p>报名学车</p></button>
+				<button class="pos7 blki" data-toggle="tooltip" data-placement="left" title="您报名学车您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">07</p></button>
+				<button class="pos2 blki2" data-toggle="tooltip" data-placement="left" title="您报名学车您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">02</p><p>报名学车</p></button>
+				<button class="pos4 blki2" data-toggle="tooltip" data-placement="left" title="您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">04</p><p>报名学车</p></button>
+				<button class="pos6 blki2" data-toggle="tooltip" data-placement="left" title="您报名学车您报名学车您报名学车您报名学车您报名学车您报名学车您报名学车"><p class="nums">05</p><p>报名学车</p></button>
+				</div>
+			</div>
+			</section>
+			<section id="carclass ck-clearfix" class="icarclass">
+				<div class="classtop">
+					<h1 class="classintro">班型介绍</h1>
+					<div class="lineblock">
+						<div class="line"></div>
+					</div>
+					<h3 class="classintro-b">请根据您的具体情况，选择最佳学车方案</h3>
+				</div>
+				<div class="carslider ck-containter  ck-clearfix">
+					<div class="carclassslider">
+					<div class="carclass-block slide mar20">
+						<img src="__PUBLIC__/images/cartype.jpg" alt="" class="classimg">
+						<h3 class="classtitle">尊贵版</h3>
+						<p class="info">桑塔纳(C1) <i>5890</i>元  伊兰特(C1)<i>6190</i>元</p>
+						<p class="descrip">1.提前预留车辆，不用预约。2.交规合格20天后通知上车。3.周一或周四上车，连续训练7日。</p>
+						<button>阅读更多</button>
+					</div>
+					<div class="carclass-block slide mar20">
+						<img src="__PUBLIC__/images/cartype.jpg" alt="" class="classimg">
+						<h3 class="classtitle">速成班</h3>
+						<p class="info">桑塔纳(C1) <i>3290</i>元  伊兰特(C1)<i>3590</i>元</p>
+						<p class="descrip">1.提前预留车辆，不用预约。2.交规合格20天后通知上车。3.周一或周四上车，连续训练7日。</p>
+						<button>阅读更多</button>
+					</div>
+					<div class="carclass-block slide mar20">
+						<img src="__PUBLIC__/images/cartype.jpg" alt="" class="classimg">
+						<h3 class="classtitle">假日班</h3>
+						<p class="info">桑塔纳(C1) <i>3290</i>元  伊兰特(C1)<i>3590</i>元</p>
+						<p class="descrip">1.提前预留车辆，不用预约。2.交规合格20天后通知上车。3.周一或周四上车，连续训练7日。</p>
+						<button>阅读更多</button>
+					</div>
+					<div class="carclass-block slide">
+						<img src="__PUBLIC__/images/cartype.jpg" alt="" class="classimg">
+						<h3 class="classtitle">贵宾班</h3>
+						<p class="info">桑塔纳(C1) <i>3290</i>元  伊兰特(C1)<i>3590</i>元</p>
+						<p class="descrip">1.提前预留车辆，不用预约。2.交规合格20天后通知上车。3.周一或周四上车，连续训练7日。</p>
+						<button>阅读更多</button>
+					</div>
+					<div class="carclass-block slide">
+						<img src="__PUBLIC__/images/cartype.jpg" alt="" class="classimg">
+						<h3 class="classtitle">时培训班</h3>
+						<p class="info">桑塔纳(C1) <i>3290</i>元  伊兰特(C1)<i>3590</i>元</p>
+						<p class="descrip">1.周一至周五 120。2.周六周日 150。3.周一到周日  200。</p>
+						<button>阅读更多</button>
+					</div>
+					</div>
+				</div>
+			</section>
+			<section id="carts ck-clearfix" class="icarclass_ts">
+				<div class="classtop">
+					<h1 class="classintro">金领特色</h1>
+					<div class="lineblock">
+						<div class="line"></div>
+					</div>
+				</div>
+				<div class="ts ck-containter">
+					<div class="tsrow ck-clearfix">
+						<div class="infoshow1">
+							<h3>签约学车 两月拿证</h3>
+							<p class="info">
+								签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证
+							</p>
+						</div>
+						<div class="infoshow2">
+							<h3>签约学车 两月拿证</h3>
+							<p class="info">
+								签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证
+							</p>
+						</div>
+					</div>
+					<div class="tsrow ck-clearfix mart20">
+						<div class="infoshow3">
+							<h3>签约学车 两月拿证</h3>
+							<p class="info">
+								签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证
+							</p>
+						</div>
+						<div class="infoshow4">
+							<h3>签约学车 两月拿证</h3>
+							<p class="info">
+								签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证
+							</p>
+						</div>
+					</div>
+					<div class="tsrow ck-clearfix mart20">
+						<div class="infoshow5">
+							<h3>签约学车 两月拿证</h3>
+							<p class="info">
+								签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证
+							</p>
+						</div>
+						<div class="infoshow6">
+							<h3>签约学车 两月拿证</h3>
+							<p class="info">
+								签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证签约学车两月拿证
+							</p>
+						</div>
+					</div>
+				
+				</div>
+		</section>
+		<section id="intro ck-clearfix" class="ck-intro">
+			<div class="ck-containter ck-clearfix">
+			<div class="intro-left ck-clearfix">
+				<div class="intro-header">
+					<h5>金领简介 <a href="#" class="more">更多</a></h5>
+				</div>
+				<div class="intro-con">
+					<img src="__PUBLIC__/images/company_jj.jpg" alt="">
+					<p class="sinfo">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金领驾驶培训有限公司(金领驾校)始建于2005年5月，公司开业至今已近10年，已为社会输送驾驶车辆人才3万余人，间接地为社会做出了巨大的贡献。我公司拥有各种型性能优良的教学车辆。我公司教练员都是通过严格的考核并持证上岗，属经验丰富、作风正派、有职业道德、责任心强的高级驾驶员。
+					</p>
+				</div>
+			</div>
+			<div class="intro-right ck-clearfix">
+				<div class="intro-header"><h5>教练团队 <a href="#" class="more">更多</a></h5></div>
+				<div class="intro-con">
+					<div class="mycoachsilder ">
+						<div class="coachteam slide ck-clearfix">
+							<div class="teamonebox ck-clearfix tmarginr">
+							<img src="__PUBLIC__/images/jl_avstar.jpg" alt="">
+							<h3>张教练</h3>
+							<p class="ins">教龄:15年 科目二教练</p>
+							<p class="des">工作严谨，表现出强烈的责任心，教学方法灵活，易懂</p>
+							</div>
+							<div class="teamonebox ck-clearfix tmarginr">
+							<img src="__PUBLIC__/images/jl_avstar.jpg" alt="">
+							<h3>张教练</h3>
+							<p class="ins">教龄:15年 科目二教练</p>
+							<p class="des">工作严谨，表现出强烈的责任心，教学方法灵活，易懂</p>
+							</div>
+							<div class="teamonebox ck-clearfix">
+							<img src="__PUBLIC__/images/jl_avstar.jpg" alt="">
+							<h3>张教练</h3>
+							<p class="ins">教龄:15年 科目二教练</p>
+							<p class="des">工作严谨，表现出强烈的责任心，教学方法灵活，易懂</p>
+							</div>
+						</div>
+						<div class="coachteam slide ck-clearfix">
+							<div class="teamonebox ck-clearfix tmarginr">
+							<img src="__PUBLIC__/images/jl_avstar.jpg" alt="">
+							<h3>张教练</h3>
+							<p class="ins">教龄:15年 科目二教练</p>
+							<p class="des">工作严谨，表现出强烈的责任心，教学方法灵活，易懂</p>
+							</div>
+							<div class="teamonebox ck-clearfix tmarginr">
+							<img src="__PUBLIC__/images/jl_avstar.jpg" alt="">
+							<h3>张教练</h3>
+							<p class="ins">教龄:15年 科目二教练</p>
+							<p class="des">工作严谨，表现出强烈的责任心，教学方法灵活，易懂</p>
+							</div>
+							<div class="teamonebox ck-clearfix">
+							<img src="__PUBLIC__/images/jl_avstar.jpg" alt="">
+							<h3>张教练</h3>
+							<p class="ins">教龄:15年 科目二教练</p>
+							<p class="des">工作严谨，表现出强烈的责任心，教学方法灵活，易懂</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<section id="bottominfo ck-clearfix" class="ibot">
+			<div class="ck-containter ck-clearfix">
+				<a href="#" class="iblock imr"><i class="b1"></i><h3>24小时免费咨询</h3><p class="pinfo">这是描述啊</p></a> 
+				<a href="#" class="iblock imr"><i class="b2"></i><h3>免费上门手续</h3><p class="pinfo">这是描述啊</p></a> 
+				<a href="#" class="iblock imr"><i class="b3"></i><h3>优秀教练团队</h3><p class="pinfo">这是描述啊</p></a> 
+				<a href="#" class="iblock imr"><i class="b4"></i><h3>教研组手把手训练</h3><p class="pinfo">这是描述啊</p></a> 
+				<a href="#" class="iblock"><i class="b5"></i><h3>3小时免费上路热身</h3><p class="pinfo">这是描述啊</p></a> 
+				
+			</div>
+		</section>
+		<footer id="ck-footer" class="ckfooter">
+			<div class="ck-containter ck-clearfix">
+			<nav class="mynav ck-clearfix">
+				<ul>
+					<li class="hasmenu">
+					<a href="">驾校概况</a>
+					<ul class="sbm">
+						<li><a href="">驾校简介</a></li>
+						<li><a href="">驾校环境</a></li>
+						<li><a href="">老师风采</a></li>
+						<li><a href="#">班车时刻</a></li>
+					</ul>
+					</li>
+					<li class="hasmenu">
+					<a href="">驾校咨询</a>
+					 <ul class="sbm">
+					 	<li><a href="">老师风采</a></li>
+					 	<li><a href="">老师风采</a></li>
+					 	<li><a href="">老师风采</a></li>
+					 </ul>
+					</li>
+					<li class="hasmenu">
+					<a href="">收费标准</a>
+					 <ul class="sbm">
+						<li><a href="">老师风采</a></li>
+						<li><a href="">老师风采</a></li>
+						<li><a href="">老师风采</a></li>
+						<li><a href="">老师风采</a></li>
+					</ul>	
+					</li>
+					<li class="hasmenu">
+					<a href="">报名咨询</a>
+					 <ul class="sbm">
+					 	<li><a href="">老师风采</a></li>
+					 	<li><a href="">老师风采</a></li>
+					 </ul>
+					</li>
+					<li class="hasmenu">
+					<a href="">联系我们</a>
+						<ul class="sbm">
+							<li><a href="">老师风采</a></li>
+							<li><a href="">老师风采</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="qrcode ck-clearfix">
+				<div class="conphone">
+					<p>24小时免费服务热线</p>
+					<h3>4000-88-0791</h3>
+				</div>
+				<img src="__PUBLIC__/images/qrcode_b.jpg">
+			</div>
+			</div>
+		</footer>
+		</div>
+		<div id="siderbar">
+			<ul>
+				<li><a class="sign">报名</a></li>
+				<li><a class="kf">客服</a></li>
+				<li><a class="bc">班车</a></li>
+				<li><a class="mnk">模拟考</a></li>
+				<li><a class="sys">扫一扫</a></li>
+				<li><a class="back"></a></li>
+			</ul>
+		</div>
+	</body>
+</html>

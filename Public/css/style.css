@@ -1,0 +1,8 @@
+.icenter { text-align: center; }
+.content { width:100%;padding:20px; }
+.iform { width:60%;padding:10px; float: left; }
+.mform { width:30%;padding:10px; float:right;}
+.isubmit{ width:80%;clear:both;padding:20px; }
+.panelright { display: inline;float:right;width:30%; }
+.autow { width: auto;		 }
+.panel-heading h3 { width:auto; }
